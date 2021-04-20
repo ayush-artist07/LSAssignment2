@@ -1,0 +1,4 @@
+C:\C#\practical\PrintMessage\PrintMessage\bin\Debug\PrintMessage.dll
+C:\C#\practical\PrintMessage\PrintMessage\bin\Debug\PrintMessage.pdb
+C:\C#\practical\PrintMessage\PrintMessage\obj\Debug\PrintMessage.dll
+C:\C#\practical\PrintMessage\PrintMessage\obj\Debug\PrintMessage.pdb
