@@ -21,12 +21,12 @@ namespace HelloWorld
                 //Creating a reference of type Type
                 Type type = assembly.GetType("PrintMessage.Message");
 
-                //create instance of PrintMessage Class
+                //create instance of Message Class
                 var instanceOfHelloPrint = Activator.CreateInstance(type);
 
                 string message = Console.ReadLine();
 
-                //Invoke the HelloPrint method
+                //Invoke the PrintTheMessage method of Message Class passing the message local variable as parameter
                 Console.WriteLine(type.InvokeMember("PrintTheMessage", BindingFlags.InvokeMethod, null, instanceOfHelloPrint, new object[] { message }));
             }
             catch(System.IO.FileNotFoundException ex)
