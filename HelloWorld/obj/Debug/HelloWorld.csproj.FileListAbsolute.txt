@@ -1,0 +1,8 @@
+C:\C#\practical\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\C#\practical\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+C:\C#\practical\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\C#\practical\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
+C:\C#\practical\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+C:\C#\practical\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
+C:\C#\practical\HelloWorld\HelloWorld\bin\Debug\PrintMessage.dll
+C:\C#\practical\HelloWorld\HelloWorld\bin\Debug\PrintMessage.pdb
