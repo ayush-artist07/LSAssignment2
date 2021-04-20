@@ -16,18 +16,18 @@ namespace HelloWorld
             try
             {
                 //Load Assembly at run time
-                Assembly assembly = Assembly.LoadFile(@"C:\C#\practical\PrintMessage\PrintMessage\bin\Debug\PrintMessage.dll");
+                Assembly AssemblyPrintMessage = Assembly.LoadFile(@"C:\C#\practical\PrintMessage\PrintMessage\bin\Debug\PrintMessage.dll");
                 
                 //Creating a reference of type Type
-                Type type = assembly.GetType("PrintMessage.Message");
+                Type TypeOfMessage = assembly.GetType("PrintMessage.Message");
 
                 //create instance of Message Class
-                var instanceOfHelloPrint = Activator.CreateInstance(type);
+                var InstanceOfHelloPrint = Activator.CreateInstance(type);
 
-                string message = Console.ReadLine();
+                string Message = Console.ReadLine();
 
                 //Invoke the PrintTheMessage method of Message Class passing the message local variable as parameter
-                Console.WriteLine(type.InvokeMember("PrintTheMessage", BindingFlags.InvokeMethod, null, instanceOfHelloPrint, new object[] { message }));
+                Console.WriteLine(type.InvokeMember("PrintTheMessage", BindingFlags.InvokeMethod, null, instanceOfHelloPrint, new object[] { Message }));
             }
             catch(System.IO.FileNotFoundException ex)
             {
