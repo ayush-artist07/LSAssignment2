@@ -21,7 +21,7 @@ namespace HelloWorld
                 //Creating a reference of type Type
                 Type type = assembly.GetType("PrintMessage.Message");
 
-                //create instance of HelloPrint Class
+                //create instance of PrintMessage Class
                 var instanceOfHelloPrint = Activator.CreateInstance(type);
 
                 string message = Console.ReadLine();
