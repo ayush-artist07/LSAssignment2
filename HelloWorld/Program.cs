@@ -26,7 +26,7 @@ namespace HelloWorld
 
                 string Message = Console.ReadLine();
 
-                //Invoke the PrintTheMessage method of Message Class passing the message local variable as parameter
+                //Invoke the PrintTheMessage method of Message Class passing the Message local variable as parameter
                 Console.WriteLine(type.InvokeMember("PrintTheMessage", BindingFlags.InvokeMethod, null, instanceOfHelloPrint, new object[] { Message }));
             }
             catch(System.IO.FileNotFoundException ex)
